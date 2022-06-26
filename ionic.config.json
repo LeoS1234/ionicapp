@@ -1,0 +1,7 @@
+{
+  "name": "LuxuryAppIoT",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

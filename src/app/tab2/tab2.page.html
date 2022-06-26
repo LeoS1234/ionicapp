@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+  
+    <ion-title>
+      Wi-Fi Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-progress-bar type="indeterminate"></ion-progress-bar>
+<ion-content>
+
+
+<ion-item color="primary">
+  <ion-label>Use Wi-Fi</ion-label> <ion-toggle></ion-toggle>
+</ion-item>
+<ion-card>
+<ion-item>
+  <ion-label>Avalaible Networks</ion-label>
+  <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">
+    <ion-select-option value="red">UTMA-LABORATORIES</ion-select-option>
+    <ion-select-option value="purple">UTMA</ion-select-option>
+    <ion-select-option value="yellow">UTMA-STAFF</ion-select-option>
+    <ion-select-option value="orange">UTMA-RECTORIA</ion-select-option>
+    <ion-select-option value="green">UTMA 2</ion-select-option>
+  </ion-select>
+</ion-item>
+</ion-card>
+
+  <ion-card-content>
+    Phone's wifi address: 127.189.23.92
+  </ion-card-content>
+
+  

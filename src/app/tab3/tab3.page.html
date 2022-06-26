@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-title>
+      Bluetooth Settings
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-progress-bar type="indeterminate"></ion-progress-bar>
+
+<ion-content>
+<ion-item color="primary">
+  <ion-label>Turn On</ion-label> <ion-toggle></ion-toggle>
+</ion-item>
+
+<ion-card>
+<ion-item>
+  <ion-label>Avalaible Devices</ion-label>
+  <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Select One">    <ion-select-option value="purple">MotoX4</ion-select-option>
+    <ion-select-option value="yellow">UTMA-STAFF</ion-select-option>
+    <ion-select-option value="orange">ESP32</ion-select-option>
+    <ion-select-option value="green">Samsung Galaxy A70</ion-select-option>
+  </ion-select>
+</ion-item>
+</ion-card>
+
+<ion-card-content>
+  Phone's bluetooth address: C0:8C:71:95:27:9F
+</ion-card-content>
+
